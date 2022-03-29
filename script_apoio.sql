@@ -50,6 +50,13 @@ order by a.id
 
 ---  FINAIS  ---------------------------------------------------------------------------
 
+Servidor : 192.168.10.32
+base: vision
+port: 5432
+user: odoo
+pass: odoo
+
+
 SELECT 
 x.name	as colaborador,
 a.check_in as entrada,
