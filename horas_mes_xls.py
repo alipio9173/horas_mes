@@ -12,10 +12,10 @@ FMT = '%H:%M:%S'
 # tam = 5
 # col = 1
 # pasta = '/home/alipio/00.planilha_horas_odoo/'
-pasta = os.getcwd() + '/planilha_horas/'
+pasta = os.getcwd() #+ '/planilha_horas/'
 print(pasta)
 
-mod_xls = pasta + "modelo_openpyxl.xlsx"
+mod_xls = pasta + "/modelo_openpyxl.xlsx"
 
 DIAS = ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-Feira', 'Sexta-feira', 'Sábado', 'Domingo']
 
@@ -26,14 +26,14 @@ FMT = '%H:%M:%S'
 # colaborador = ''
 
 # arquivo = pasta + "lista_horas_janeiro_2022.xlsx"
-arquivo = pasta + "lista_horas.xlsx"
+arquivo = pasta + "/lista_horas.xlsx"
 df = pd.read_excel(arquivo, sheet_name=0)
 lin_col = df.shape
 nr_linhas = lin_col[0]
 colaborador = ''
 colab_old = ''
 # arqxx = ''
-passai = pasta + 'saida/'
+passai = pasta + '/saida/'
 y = 0
 tam = 0
 # dias = 31
