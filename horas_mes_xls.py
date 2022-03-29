@@ -177,10 +177,18 @@ def Grava_falta(val_tam, val_x, lin, aba, mes):
     cel_a = "A" + str(lin)
     cel_b = "B" + str(lin)
     cel_c = "C" + str(lin)
+    cel_d = "D" + str(lin)
+    cel_e = "E" + str(lin)
+    cel_f = "F" + str(lin)
+    cel_g = "G" + str(lin)
 
     aba[cel_a] = dt01
     aba[cel_b] = dia_semana
     aba[cel_c] = 'FALTA'
+    aba[cel_d] = ''
+    aba[cel_e] = ''
+    aba[cel_f] = ''
+    aba[cel_g] = ''
 
 x = 1
 y = 0
